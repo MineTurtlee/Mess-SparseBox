@@ -16,7 +16,7 @@ struct ContentView: View {
     @State var featureFlagsData = Data()
     @State var mobileGestalt: NSMutableDictionary
     @State var productType = machineName()
-    @State var minimuxerReady = false
+    @State var minimuxerReady = true
     @State var reboot = true
     @State var showPairingFileImporter = false
     @State var showErrorAlert = false
